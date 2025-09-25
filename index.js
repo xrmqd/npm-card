@@ -16,6 +16,7 @@ const {
   labelBlog,
   blog,
   labelTwitter,
+  labelTelegram,
   twitter,
   labelnpm,
   npm,
@@ -46,6 +47,7 @@ console.log(
     [
       `${name} / ${handle}`,
       nextLine,
+      labelTelegram ? `${labelTelegram} ${telegram}` : null,
       labelWork ? `${labelWork}  ${work}` : null,
       labelBlog ? `${labelBlog}  ${blog}` : null,
       labelTwitter ? `${labelTwitter}  ${twitter}` : null,
