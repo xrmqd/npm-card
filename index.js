@@ -4,7 +4,7 @@ import boxen from 'boxen';
 import inquirer from 'inquirer';
 import open from 'open';
 
-import config from './config';
+import config from './config.js';
 
 const { createPromptModule } = inquirer;
 
