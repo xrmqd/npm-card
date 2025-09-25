@@ -14,7 +14,7 @@ const data = {
   // labelWork: '',
   // labelBlog: '',
 
-  labelTelegram: white.bold('    Telegram:')
+  labelTelegram: white.bold('    Telegram:'),
   labelGitHub: white.bold('     GitHub:'),
 
   firstPharse: `A ${bold.green(
