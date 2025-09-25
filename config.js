@@ -8,13 +8,11 @@ const data = {
   handle: cyan('@xrmqd'),
 
   // Links
-  telegram: gray('https://t.me/') + green('xrm4d'),
   github: gray('https://github.com/') + green('xrmqd'),
 
   // labelWork: '',
   // labelBlog: '',
 
-  labelTelegram: white.bold('    Telegram:'),
   labelGitHub: white.bold('     GitHub:'),
 
   firstPharse: `A ${bold.green(
