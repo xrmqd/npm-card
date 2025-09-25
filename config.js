@@ -9,11 +9,13 @@ const data = {
 
   // Links
   github: gray('https://github.com/') + green('xrmqd'),
+  telegram: gray('https://t.me/') + green('xrmqd'),
 
   // labelWork: '',
   // labelBlog: '',
 
   labelGitHub: white.bold('     GitHub:'),
+  labelTelegram: white.bold('     Telegram:'),
 
   firstPharse: `A ${bold.green(
     'passionate'
