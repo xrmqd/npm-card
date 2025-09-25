@@ -3,29 +3,25 @@ import chalk from 'chalk';
 const { bold, cyan, gray, green, white } = chalk;
 
 const data = {
-  name: bold.green('        Eliaz Bobadilla'),
-  email: bold.green('eliazbobadilladev@gmail.com'),
-  handle: cyan('@UltiRequiem'),
+  name: bold.green('        Denis Globa'),
+  email: bold.green('xrmqd@icloud.com'),
+  handle: cyan('@xrmqd'),
 
   // Links
-  twitter: gray('https://twitter.com/') + green('UltiRequiem'),
-  npm: gray('https://npmjs.com/') + green('~ultirequiem'),
-  github: gray('https://github.com/') + green('UltiRequiem'),
-  linkedin: gray('https://linkedin.com/in/') + green('eliazbobadilla'),
+  telegram: gray('https://t.me/') + green('xrm4d'),
+  github: gray('https://github.com/') + green('xrmqd'),
 
   // labelWork: '',
   // labelBlog: '',
 
-  labelTwitter: white.bold('    Twitter:'),
-  labelnpm: white.bold('        NPM:'),
+  labelTelegram: white.bold('    Telegram:')
   labelGitHub: white.bold('     GitHub:'),
-  labelLinkedIn: white.bold('   LinkedIn:'),
 
   firstPharse: `A ${bold.green(
     'passionate'
-  )} 14 years old student, learning all the time.`,
-  secondPharse: `I love working with ${cyan('JavasCript')} and ${cyan(
-    'Golang'
+  )} 17 years old student, learning all the time.`,
+  secondPharse: `I love working with ${cyan('Rust')} and ${cyan(
+    'Python'
   )}.`,
 
   farewell: bold.blue(' See you later!'),
